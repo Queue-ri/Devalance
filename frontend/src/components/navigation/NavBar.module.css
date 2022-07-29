@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard-dynamic-subset.css");
+
+.navbar {
+    height: 75px;
+}
+
+.title {
+    color: #3958C5 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px !important;
+    font-family: Pretendard;
+}
+
+.create_button {
+    display: flex;
+    background-color: #3F64E6;
+    width: 130px;
+    height: 42px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.create_button_disabled {
+    display: flex;
+    background-color: #d8d8d8;
+    width: 130px;
+    height: 42px;
+    border-radius: 8px;
+    cursor: not-allowed;
+    transition: 0.5s;
+}
+
+.create_button > p, .create_button_disabled > p {
+    color: #ffffff;
+    font-size: 15px !important;
+    font-family: Pretendard;
+    margin: auto;
+}
