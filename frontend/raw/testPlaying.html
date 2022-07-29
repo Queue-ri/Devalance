@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="testStyle.css">
+  <script src="https://kit.fontawesome.com/f1b10246ca.js" crossorigin="anonymous"></script>
+  <script defer src="testPlaying.js"></script>
+  <title>테스트 중</title>
+</head>
+<body>
+
+<section class="mainmain">
+  <aside class="recommend">
+
+    <div class="title">추천 테스트</div>
+
+    <div class="recTestBtns">
+      <button class="recTest__btn">
+        <p>자취할 때 나는?</p> <!--테스트 제목-->
+        <div class="likeAmount">
+          <i class="fa-solid fa-heart"></i>
+          <p>123</p> <!--좋아요 개수-->
+        </div>
+      </button>
+
+      <button class="recTest__btn">
+        <p>자취할 때 나는? 자취할 때 나는? 자취할 때 나는? 자취할 때 나는? 자취할 때 나는?</p> <!--테스트 제목-->
+        <div class="likeAmount">
+          <i class="fa-solid fa-heart"></i>
+          <p>123</p> <!--좋아요 개수-->
+        </div>
+      </button>
+    </div>
+    
+  </aside>
+
+
+  <div class="main">
+
+    <section class="playing">
+      <button class="goBefore">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+
+      <div class="QnA">
+        <div class="quiz" id="quiz"></div> <!-- 테스트 제목 -->
+        <div class="anwsers" id="anwsers">
+          <!-- 제목과 선택지를 js에서 알아서 가져옴 (DOMContentLoaded)-->
+        </div>
+      </div>
+
+      <button class="goNext">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </section>
+
+    <hr>
+
+    <footer>
+      <div class="info">
+
+        <div class="title">자취할 때 나는?</div>
+        <div class="likeAmount">
+          <i class="fa-solid fa-heart"></i>
+          <p>123</p> <!--좋아요 개수-->
+        </div>
+        <div class="detail">자취할 때 나의 성향에 대해 알아보자! 어쩌고 테스트 설명 어쩌고자취할 때 나의 성향에 대해 알아보자! 어쩌고 테스트 설명 어쩌고자취할 때 나의 성향에 대해 알아보자! 어쩌고 테스트 설명 어쩌고자취할 때 나의 성향에 대해 알아보자! 어쩌고 테스트 설명 어쩌고</div>
+      
+      </div>
+
+      <div class="btns">
+        
+         <button class="restart__btn" onclick="location.href = 'testStart.html'">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+            <p>다시 처음부터</p>
+         </button>
+         <button class="share__btn">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            <p>공유하기</p>
+         </button>
+         <button class="like__btn">
+            <i class="fa-solid fa-heart"></i>
+            <p>좋아요</p>
+         </button>
+
+      </div>
+      </footer>
+      
+  </div>
+
+</section>
+</body>
+</html>
