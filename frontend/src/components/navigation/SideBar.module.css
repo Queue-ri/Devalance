@@ -1,0 +1,62 @@
+.sidebar {
+    position: fixed;
+    z-index: 100;
+}
+
+.sidebar > div:not(:nth-child(-n+2)) {
+    margin-top: 10px;
+    padding: 2px 80px 2px 8px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.sidebar > div:not(:nth-child(-n+2)):hover {
+    margin-top: 10px;
+    padding: 2px 80px 2px 8px;
+    border-radius: 12px;
+    background-color: #ffffff !important;
+}
+
+.sidebar > div:nth-child(-n+2) {
+    margin-bottom: 25px;
+    padding: 4px;
+    padding-right: 80px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.sidebar > div:nth-child(-n+2):hover {
+    background-color: #ffffff !important;
+}
+.sidebar > div:nth-child(1) { /* :first-child는 override가 잘 안됨 */
+    margin-bottom: 10px !important;
+}
+
+.sidebar > div > a:nth-child(n) {
+    font-size: 18px;
+    font-weight: bold;
+    color: #17181A;
+    font-family: Pretendard;
+}
+
+.sidebar > div:not(:nth-child(-n+2)) > a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Pretendard;
+}
+
+.sidebar > div:nth-child(-n+2) > a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Pretendard;
+}
+
+.active {
+    background-color: #ffffff !important;
+}
+
+.highlight {
+    background: rgb(63,100,230);
+    background: linear-gradient(84deg, rgba(63,100,230,1) 0%, rgba(0,177,255,1) 56%, rgba(0,245,255,1) 100%);
+}
+.highlight > a {
+    color: #ffffff !important;
+}
