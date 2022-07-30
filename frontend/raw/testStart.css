@@ -3,6 +3,7 @@
     --text-color: #f0f0f0;
     --block-color: white;
     --accent-color: #505FF9;
+    --secondary-color: #DBDDFF;
     --gray-color: #A4A4A4;
 }
 
@@ -10,6 +11,13 @@
     font-family: 'Pretendard';
     margin: 0px;
     padding: 0px;
+}
+
+hr {
+    background-color: var(--background-color);
+    border: none;
+    height: 2px;
+    margin: 0px 30px;
 }
 
 button {
@@ -24,6 +32,8 @@ button:hover {
     font-weight: bolder;
 }
 
+/* 개별 css */
+
 body {
     background-color: var(--background-color);
     display: flex;
@@ -31,9 +41,10 @@ body {
 }
 
 section.mainmain {
-    width: 1440px;
+    max-width: 1440px;
     margin-top: 55px;
     display: flex;
+    justify-content: center;
 }
 
 .recommend > .title {
@@ -80,9 +91,82 @@ section.mainmain {
 }
 
 .main > section > img {
-    width: 1181px; /*1181*/
+    width: 1181px;
     height: 422px;
 }
+
+/* 플레이 화면 */
+
+section.playing {
+    padding: 100px 30px;
+    width: 1121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+section.playing > button {
+    width: 48px;
+    height: 48px;
+    font-size: 20px; /*이건 확실하진 않음*/
+}
+
+.QnA {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.QnA > .anwsers {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.QnA > .anwsers > button {
+    width: 80%;
+    padding: 13px 60px;
+    font-size: 18px;
+    
+}
+
+/* 결과 화면 */
+
+section.result {
+    padding: 100px 30px 50px 30px;
+    width: 1121px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.title__up {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.title__down {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 26px;
+}
+
+section.result > .detail {
+    width: 80%;
+    font-size: 18px;
+    padding: 13px 60px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* footer */
 
 .main > footer {
     padding: 30px 28px;
@@ -106,7 +190,8 @@ section.mainmain {
     line-height: 25px;
 }
 
-.btns > button {
+.btns > button,
+button.resultShare__btn  {
     width: 228px;
     height: 48px;
     display: flex;
@@ -124,7 +209,13 @@ section.mainmain {
     height: 12px;
 }
 
-button.start__btn {
+button.start__btn,
+button.resultShare__btn {
     background-color: var(--accent-color);
     color: var(--text-color);
+}
+
+button.like__btn.active {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
 }
