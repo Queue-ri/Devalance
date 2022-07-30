@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.folded_type {
+    background-color: #f9f9f9;
+    color: #4c4c4c;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Pretendard;
+    cursor: pointer;
+}
+
+.type > div {
+    display: flex;
+}
+
+.type > div > div {
+    min-width: 100px; /* textarea가 왼쪽으로 더 쏠리는 현상 방지 */
+    width: 100px;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Pretendard;
+}
+
+.type > div > input {
+    display: flex;
+    width: 60%;
+    height: 48px;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    color: #4c4c4c;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+.type > div > input::file-selector-button {
+    cursor: pointer;
+    padding: 0px 8px;
+    background-color: white;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.type > div > input::placeholder {
+    color: #bbbbbb;
+}
+
+.type > div > textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    color: #4c4c4c;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+.type > div > textarea::placeholder {
+    color: #bbbbbb;
+}
+
+.btn_container {
+    display: flex;
+    gap: 15px;
+}
+
+.done_btn {
+    display: flex;
+    margin-left: auto;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E0E3FF;
+    font-family: Pretendard;
+}
+
+.delete_type_btn {
+    display: flex;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+
+.done_btn > svg, .delete_type_btn > svg {
+    margin: auto 6px auto 0px;
+}
