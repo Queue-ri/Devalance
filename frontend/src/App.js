@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import DevPage from './pages/DevPage';
-// import NewPage from './pages/NewPage';
+import NewPage from './pages/NewPage';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<MainPage />} />
                     <Route path="/dev" element={<DevPage />} />
-                    {/* <Route exact path="/new" element={<NewPage />} /> */}
+                    <Route exact path="/new" element={<NewPage />} />
                 </Routes>
             </div>
         </BrowserRouter>
