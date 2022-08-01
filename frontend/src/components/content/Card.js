@@ -1,11 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Card.module.css";
 import DefaultThumbnail from '../../img/default_thumbnail.png';
 
 function Card(props) {
-    const clickCard = (e) => {
-        alert("카드 클릭");
+    const navigate = useNavigate();
 
+    const clickCard = (id) => {
+        navigate("/play/" + id, {state: id})
     };
 
     const clickShare = (e) => {
@@ -14,7 +16,7 @@ function Card(props) {
     };
 
     return (
-        <div className={styles.card} onClick={clickCard}>
+        <div className={styles.card} onClick={() => clickCard(props.id)}>
             <img src={props.img ? props.img : DefaultThumbnail} alt="썸네일 오류! 개발자에게 알려주세요." />
 
             <div className={styles.card_body}>
