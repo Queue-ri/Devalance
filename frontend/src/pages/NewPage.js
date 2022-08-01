@@ -91,7 +91,7 @@ function NewPage() {
 
     return (
         <>
-            <NavBar new={true} />
+            <NavBar showDropdown={true} new={true} />
             <Container fluid="md" style={{height: "100%", paddingTop: "40px", alignSelf: "flex-start" /* 매우 중요 */}}>
                 <Row>
                     <Col xs="3" style={{width: "21%"}}> {/* override xs="3" (width: 25%) */}
