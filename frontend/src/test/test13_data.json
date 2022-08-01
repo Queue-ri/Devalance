@@ -1,0 +1,54 @@
+{
+    "test_info": {
+        "img": "https://pixabay.com/get/gc48f88ca11e2b3b4c37701c5f78b00f037129f0fdde928a3bcab7b0aaf101fd3fd58a767a977feb2c87088a461e5cb44_640.jpg",
+        "title": "로스트아크 vs 파이널판타지14",
+        "content": "mmorpg 중 나에게 맞는 게임을 알아보자!",
+        "done": 654,
+        "likes": 349
+    },
+
+    "question_list": [
+        {
+            "question": "게이머 성비는?",
+            "choice": [
+                { "answer": "남자가 많은게 좋다", "type": "로스트아크" },
+                { "answer": "여자가 많은게 좋다", "type": "파이널판타지14" },
+                { "answer": "상관없다", "type": "로스트아크" }
+            ]
+        },
+        {
+            "question": "타격감은",
+            "choice": [
+                { "answer": "중요하다. 정말로", "type": "로스트아크" },
+                { "answer": "그보다 중요한것도 많다", "type": "파이널판타지14" }
+            ]
+        },
+        {
+            "question": "과금 요소는?",
+            "choice": [
+                { "answer": "필수적인 게 있어도 적으면 괜찮다", "type": "파이널판타지14" },
+                { "answer": "필수적인 게 있으면 안된다", "type": "로스트아크" }
+            ]
+        },
+        {
+            "question": "시점은?",
+            "choice": [
+                { "answer": "쿼터뷰", "type": "로스트아크" },
+                { "answer": "백뷰", "type": "파이널판타지14" }
+            ]
+        }
+    ],
+
+    "type_list": [
+        {
+            "name": "로스트아크",
+            "imagefile": "https://www.kukinews.com/data/kuk/image/2022/04/28/kuk202204280332.647x.0.jpg",
+            "content": "부분 유료화 게임이나 과금이 심하진 않는다. 쿼터뷰 시점으로 답답함을 느낄 수 있으나 특유의 경쾌한 타격감이 장점이다."
+        },
+        {
+            "name": "파이널판타지14",
+            "imagefile": "https://w.namu.la/s/7f369d6e68dd809b9a131b0153b0f5abf263437b13b4ee7bc230dd47a940e59eb0e3c3faf423ebb03f6cac5a9200adabab19a96c9818d44c791dad4141d462c6a914cf1249430849190093097540735fe0a470e81c06900f77be5c4fe803d1bd79c94dd8a92cc6362f57444989859024",
+            "content": "월 약 2만원의 정액제로 즐길 수 있는 MMORPG 게임. 친숙한 파이널판타지 세계관을 가지고있으며, 여성 유저가 많은 것이 특징이다. 다만 타격감이 많이 부족하다는 것이 단점."
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "test_info": {
+        "img": "https://w.namu.la/s/91a6f5a40e1b512308a4fe9d22bbb1dc939bfb7ad6e861e33e0ac6d9a3c43b4f115114e939b817c46a8f2c8e3310f1a126b529432581dc2ef01ab85423ece9c724a6a0ca7dc01939c49f08781dbd4f5492ceacb204640fea3f1e76013181ce5c7828763744e90d62facb590be4d9a525",
+        "title": "나의 마인크래프트 플레이 유형은?",
+        "content": "세상은 넓고 유형은 다양하다",
+        "done": 10085,
+        "likes": 8147
+    },
+
+    "question_list": [
+        {
+            "question": "오늘은 드디어 주말이다. 무엇을 할까?",
+            "choice": [
+                { "answer": "같이 마크를 할 친구가 있을까? 연락해본다", "type": "사회적 동물" },
+                { "answer": "재밌어보이는 탈출맵을 찾았다. 해보자!", "type": "스토리 몰입러" },
+                { "answer": "전에 만들던 집이 있었는데... 이어서 만들자", "type": "창의적인 크리에이터" },
+                { "answer": "일단 새 서바이벌 월드를 만든다", "type": "호기심많은 모험가" }
+            ]
+        },
+        {
+            "question": "서바이벌 모드에서 집을 만들고 있는데 재료가 너무 부족하다",
+            "choice": [
+                { "answer": "크리에이티브 모드로 바꾼다.", "type": "창의적인 크리에이터" },
+                { "answer": "친구를 초대해서 같이 짓는다", "type": "사회적 동물" },
+                { "answer": "이게 서비아벌 모드의 묘미다!", "type": "호기심많은 모험가" }
+            ]
+        },
+        {
+            "question": "멋진 탈출맵을 하나 끝냈다. 나의 감상은?",
+            "choice": [
+                { "answer": "건물들이 너무 멋졌다. 나도 저렇게 만들어야지!", "type": "창의적인 크리에이터" },
+                { "answer": "너무 감동적인 스토리였다. 주인공의 상황이 안타깝다...", "type": "스토리 몰입러" },
+                { "answer": "너무 재미있었다. 다음에는 친구랑 같이 해야지", "type": "사회적 동물" },
+                { "answer": "생각지도 못한 방향으로 흘러가서 흥미진진했다. 특히 마지막의 반전이 좋았어", "type": "호기심많은 모험가" }
+            ]
+        },
+        {
+            "question": "새 맵을 만들 때 나의 선택은?",
+            "choice": [
+                { "answer": "무조건 서바이벌 모드", "type": "호기심많은 모험가" },
+                { "answer": "무조건 크리에이티브 모드", "type": "창의적인 크리에이터" },
+                { "answer": "인터넷에서 맵을 다운받는다", "type": "스토리 몰입러" },
+                { "answer": "새 맵을 만들지 않고 서버에 접속한다", "type": "사회적 동물" }
+            ]
+        }
+    ],
+
+    "type_list": [
+        {
+            "name": "사회적 동물",
+            "imagefile": "https://www.minecraft.net/content/dam/games/minecraft/marketplace/updates-villagepillage_latest.jpg",
+            "content": "마인크래프트는 사람들과 만나기 위한 장일 뿐! 중요한 것은 사람이다. 싱글 플레이보다는 서버에 접속하거나, 같이 게임을 즐길 사람을 구하는 것을 추천한다."
+        },
+        {
+            "name": "창의적인 크리에이터",
+            "imagefile": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg",
+            "content": "마인크래프트는 커다란 도화지일 뿐! 주로 크레이티브 모드로 건축물이나 무언가를 만드는 것을 즐기는 당신, 만든 작품을 인터넷에 올리면 어떨까?"
+        },
+        {
+            "name": "스토리 몰입러",
+            "imagefile": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/Ancient_City_2.png",
+            "content": "아무것도 없는 상태는 너무 허전한 당신! 다른 유저들이 만든 탈출맵 등을 다운받아 플레이하는 것이 어떨까?"
+        },
+        {
+            "name": "호기심많은 모험가",
+            "imagefile": "https://www.minecraft.net/content/dam/games/minecraft/marketplace/mediablock-buzzybees.jpg",
+            "content": "세상은 넓고 어딘가에는 예상치 못한 감동이 있을것이다. 최신 버전을 다운받아가며 좁고도 넓은 세상을 탐험해나가자. 인터넷에서 팁들을 읽지 않은 상태로 플레이한다면 예상치 못한 재미가 찾아올 수도?"
+        }
+    ]
+}
