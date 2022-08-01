@@ -83,6 +83,7 @@ function NewPage() {
             body.password = password; // 나중에 암호화하기
 
             console.log(body);
+            alert("등록되었습니다.")
         }
         else {
             alert("모든 필수 항목을 완성해주세요!")
