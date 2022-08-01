@@ -1,0 +1,32 @@
+{
+    "res_1": [
+        {
+            "id": 2,
+            "img": "https://cdn.pixabay.com/photo/2014/09/07/16/53/couple-437968_960_720.jpg",
+            "title" : "연애할 때 나의 성향은?",
+            "content": "나의 연애 성향 알아보기",
+            "likes": 43
+        },
+        {
+            "id": 5,
+            "img": "https://static.vecteezy.com/system/resources/previews/004/340/271/original/choice-thinking-doubt-problem-young-pensive-thoughtful-confused-doubtful-woman-or-girl-standing-and-choosing-between-two-colors-or-ways-pointing-in-other-sides-illustration-vector.jpg",
+            "title" : "감정형? or 사고형?",
+            "content": "너무나 다른 MBTI T와 F! 나의 성향은 둘 중 과연 무엇일까?",
+            "likes": 999
+        },
+        {
+            "id": 6,
+            "img": "https://pbs.twimg.com/media/EdB3o_hXsAA3fGZ.png",
+            "title" : "내가 정말 금사빠일까?",
+            "content": "금사빠 테스트",
+            "likes": 82
+        },
+        {
+            "id": 11,
+            "img": "https://cdn.pixabay.com/photo/2019/02/28/17/31/tasks-4026398_960_720.jpg",
+            "title" : "계획적/즉흥적 성격 테스트",
+            "content": "당신은 P인가요 J인가요? (TMI: 이 내용을 쓴 사람은 P입니다.)",
+            "likes": 1234
+        }
+    ]
+}

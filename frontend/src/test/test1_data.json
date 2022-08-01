@@ -1,0 +1,60 @@
+{
+    "test_info": {
+        "img": "https://qph.cf2.quoracdn.net/main-qimg-95ab4d5d315a7528da02f410a366c3ce-pjlq",
+        "title": "자스 VS 타스",
+        "content": "끝날 일 없는 세기의 자강두천 대결",
+        "done": 23048,
+        "likes": 7777
+    },
+
+    "question_list": [
+        {
+            "question": "나는 유연한 언어가 좋다.",
+            "choice": [
+                { "answer": "네!!", "type": "자스 LOVER" },
+                { "answer": "싫어요", "type": "타스 LOVER" }
+            ]
+        },
+        {
+            "question": "나는 누가 타스로 변절을 하든 자스만 쓸 것이다.",
+            "choice": [
+                { "answer": "그러다 죽을 수도 있어", "type": "타스 LOVER" },
+                { "answer": "물론이죠", "type": "자스 LOVER" }
+            ]
+        },
+        {
+            "question": "나는 무엇이든 명시적이고 안정적인 것이 좋다.",
+            "choice": [
+                { "answer": "런타임 안정성이 최고!", "type": "타스 LOVER" },
+                { "answer": "싫어.. 자유롭지가 않아..", "type": "자스 LOVER" }
+            ]
+        },
+        {
+            "question": "당신의 깃허브엔 노란 언어가 더 많나요, 파란 언어가 더 많나요?",
+            "choice": [
+                { "answer": "노랑", "type": "자스 LOVER" },
+                { "answer": "파랑", "type": "타스 LOVER" }
+            ]
+        },
+        {
+            "question": "나는 언젠간 타입스크립트를 배울 의사가 있다.",
+            "choice": [
+                { "answer": "그럴 일은 없어요", "type": "자스 LOVER" },
+                { "answer": "배워서 나쁠 것 없지", "type": "타스 LOVER" }
+            ]
+        }
+    ],
+
+    "type_list": [
+        {
+            "name": "자스 LOVER",
+            "imagefile": "",
+            "content": "당신은 결국 자바스크립트를 선택하셨습니다. 머리털 다 빠지고 나서 후회해봤자 소용 없어요. 이미 심각한 자스 중독입니다."
+        },
+        {
+            "name": "타스 LOVER",
+            "imagefile": "",
+            "content": "당신은 결국 타입스크립트를 선택하셨습니다. 머리털은 간신히 지켜냈지만 마이크로소프트의 노예가 되었네요.."
+        }
+    ]
+}

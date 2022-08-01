@@ -1,0 +1,18 @@
+{
+    "res_1": [
+        {
+            "id": 1,
+            "img": "https://qph.cf2.quoracdn.net/main-qimg-95ab4d5d315a7528da02f410a366c3ce-pjlq",
+            "title": "자스 VS 타스",
+            "content": "끝날 일 없는 세기의 자강두천 대결",
+            "likes": 7777
+        },
+        {
+            "id": 11,
+            "img": "https://cdn.pixabay.com/photo/2019/02/28/17/31/tasks-4026398_960_720.jpg",
+            "title" : "계획적/즉흥적 성격 테스트",
+            "content": "당신은 P인가요 J인가요? (TMI: 이 내용을 쓴 사람은 P입니다.)",
+            "likes": 1234
+        }
+    ]
+}

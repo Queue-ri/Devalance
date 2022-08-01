@@ -1,0 +1,60 @@
+{
+    "test_info": {
+        "img": "https://i.morioh.com/210405/3c59afec.webp",
+        "title": "GitHub VS GitLab",
+        "content": "고도화된 IT기술 발달로 협업이 불가피한 요즘, 협업에 빠질 수 없는 Git! 내가 선호하는 Git 호스팅 서비스는 둘 중 무엇일까요?",
+        "done": 3903,
+        "likes": 640
+    },
+
+    "question_list": [
+        {
+            "question": "나는 모든걸 떠나서 유명세와 커뮤니티 지원이 제일 중요하다.",
+            "choice": [
+                { "answer": "맞아", "type": "GitHub" },
+                { "answer": "딱히?", "type": "GitLab" }
+            ]
+        },
+        {
+            "question": "리포지토리 크기 제한이 1GB보다 커야 한다.",
+            "choice": [
+                { "answer": "1GB를 누구 코에 갖다 붙혀", "type": "GitLab" },
+                { "answer": "별거 안할거라 상관없는데", "type": "GitHub" }
+            ]
+        },
+        {
+            "question": "CI/CD가 매우 중요하다.",
+            "choice": [
+                { "answer": "완전 중요", "type": "GitLab" },
+                { "answer": "그렇진 않아요", "type": "GitHub" }
+            ]
+        },
+        {
+            "question": "나는 MS의 노예가 되어도 좋다.",
+            "choice": [
+                { "answer": "싫어요", "type": "GitLab" },
+                { "answer": "네..", "type": "GitHub" }
+            ]
+        },
+        {
+            "question": "웹 인터페이스 속도가 매우 중요하다.",
+            "choice": [
+                { "answer": "속도가 제일 중요", "type": "GitHub" },
+                { "answer": "꼭 그렇지만은 않아", "type": "GitLab" }
+            ]
+        }
+    ],
+
+    "type_list": [
+        {
+            "name": "GitHub",
+            "imagefile": "",
+            "content": "GitHub는 Git 호스팅 중 가장 인지도가 높은 서비스입니다. 빠릿한 웹 인터페이스와 친절한 커뮤니티를 보유하고 있지만, 무료 리포지토리 제한이 짠 편입니다."
+        },
+        {
+            "name": "GitLab",
+            "imagefile": "",
+            "content": "GitLab은 무료 리포지토리 제한이 가장 여유롭고 강력한 CI/CD 기능을 제공합니다. 또한 많은 국내 기업들이 사용하고 있죠!"
+        }
+    ]
+}
