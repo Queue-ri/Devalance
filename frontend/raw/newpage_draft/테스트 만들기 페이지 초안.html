@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <head>
+  
+  <!-- css 파일 연결 -->
+   <link rel="stylesheet" href="style_수정.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+   <meta charset="UTF-8">
+
+   <!-- <div class="container"> -->
+      <div class="header">
+
+         <!-- 헤더부분 -->
+         <div class="nav">    
+             <a href="#">DEVALANCE</h1></a>
+               
+             <li><a href="#">인기 카테고리</a></li>
+
+             <div class="dropdown">
+               <button class="dropdown_btn">전체 카테고리</button>
+                  <div class="dropdown_content">
+                     <a href="#">연애 / 성격</a>
+                     <a href="#">취향</a>
+                     <a href="#">스포츠</a>
+                     <a href="#">취미 / 게임</a>
+                     <a href="#">기타</a>
+                 </div>
+            </div>
+
+         </div>
+
+               </li>
+
+                 </ul>
+              </div>
+           </div>
+         </div>
+
+   
+
+   <body>
+
+      <!-- 회색배경 -->
+      <div class="bg">
+         <!-- 왼쪽카테고리 -->
+         <div class="leftcontent">
+            <ul>
+               <div class ="contents">
+                  <hi><li><h2>테스트 만들기</li></hi></h2>
+
+                              <li>카테고리설정(필수)</li><br>
+                              <li>테스트제목(필수)</li><br>
+                              <li>테스트설명(필수)</li><br>
+                              <li>결과유형 설정(필수)</li><br>
+                              <li>문제 설정(필수)</li><br>
+                              <li>비밀번호 등록(필수)<br><br></li>
+                           </li></hi></div>
+
+      <!-- 비밀번호 등록칸 -->
+            <textarea cols="15px" rows="2px" style="background-color:#ffffff; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">
+            </textarea><br><br>
+            <!-- 등록하기버튼 -->
+
+      <div>
+            <button class="enroll" type="button" onclick="javascript:alert('등록되었습니다!');">등록하기</button>
+        </div>
+</ul>
+
+</div>
+
+         <!-- 가운데하얀배경 -->
+         <div class="center">
+            <div>
+               <ul>
+                  <!-- 리스트1 -->
+            <H3>      
+            <li><b class="name">테스트 제목</b><br>
+            <p>
+            <!-- 테스트제목입력칸 -->
+           <textarea cols="140px" rows="2px" style="background-color:#F3F6FF; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">테스트 제목을 입력해주세요.
+            </textarea></li>
+
+            <!-- 리스트2 -->
+         
+<li><b class="name">카테고리 종류</b><p>
+         
+
+               <section class="gallery">
+                  <div class="container">
+                      <div class="row">
+                          <div class="gallery-filter">
+                              <span class="filter-item active" data-filter="연애 / 성격">연애 / 성격</span>
+                              <span class="filter-item" data-filter="취향">취향</span>
+                              <span class="filter-item" data-filter="스포츠">스포츠</span>
+                              <span class="filter-item" data-filter="취미/ 게임">취미/ 게임</span>
+                              <span class="filter-item" data-filter="기타">기타</span>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <br>
+          </head>
+
+          <script>
+              const filterContainer = document.querySelector(".gallery-filter");
+              const galleryItems = document.querySelectorAll(".gallery-item");
+  
+              filterContainer.addEventListener("click", (event) =>{
+              if(event.target.classList.contains("filter-item")){
+  
+               // deactivate existing active 'filter-item'
+              filterContainer.querySelector(".active").classList.remove("active");
+  
+              // activate new 'filter-item'
+              event.target.classList.add("active");
+  
+              const filterValue = event.target.getAttribute("data-filter");
+  
+              galleryItems.forEach((item) =>{
+  
+              if(item.classList.contains(filterValue) || filterValue === 'all'){
+                  item.classList.remove("hide");
+                  item.classList.add("show");
+              }
+  
+              else{
+                  item.classList.remove("show");
+                  item.classList.add("hide");
+              }
+  
+              });
+          }
+          });
+
+          </script>
+
+        </head>
+
+        </head>
+   
+
+
+         <!-- 리스트3 -->
+            <li><b class="name">테스트 설명</b><br>
+            <p>
+
+            <!-- 테스트 설명 입력칸 -->
+            <textarea cols="140px" rows="18px" style="background-color:#F3F6FF; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">테스트 설명을 입력해주세요.
+        </textarea><br><br></li>
+
+        <div>
+            <b class="name">결과 유형 설정</b><br>
+            <p>
+
+               <div class="textarea">
+                  <div class="alphabet">A유형
+
+                    <!-- 이미지첨부 아이콘 삽입 -->
+                    <span class="material-symbols-outlined">
+                    imagesmode
+                    </span>
+
+                  </div><br>
+
+            <textarea cols="140px" rows="2px" style="background-color:#F3F6FF; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">A유형
+            </textarea>
+
+            <textarea cols="140px" rows="3px" style="background-color:#F3F6FF; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">유형 설명을 입력해주세요.
+            </textarea><br><br>
+
+
+            <div class="textarea">
+                  <div class="alphabet">B유형
+                    <!-- 이미지첨부 아이콘 삽입 -->
+                <span class="material-symbols-outlined">
+                    imagesmode
+                    </span>
+                  </div><br>
+
+            <textarea cols="140px" rows="2px" style="background-color:#F3F6FF; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">B유형
+            </textarea>
+
+            <textarea cols="140px" rows="3px" style="background-color:#F3F6FF; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">유형 설명을 입력해주세요.
+            </textarea>
+
+            </div>
+
+            <div><br>
+            <button class="enroll" type="button" onclick="javascript:alert('추가되었습니다!');">+ 유형 추가하기</button>
+            <br><br><p>
+            </div>
+
+            </div></div>
+
+        <!-- 문제 설정칸 -->
+        <div class="Questions">
+        <div>
+
+            <li><b class="name">문제 설정</b><br><br></li>
+            <b class="subtitle">제목<br><br>
+
+            <textarea cols="130px" rows="2px" style="background-color:#ffffff; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">제목을 입력해주세요.
+            </textarea><br><br>
+
+
+            <div b class="name">선택지 설정</b><br><br>
+            문항 점수와 유형을 선택하세요<br><br>
+
+            선택지1&nbsp;
+
+            <!-- 문항별 점수 선택 -->
+            <select name="type">
+                <option value="+1" selected="selected">+1</option>
+                <option value="+2">+2</option>
+                <option value="+3">+3</option>
+            </select>&nbsp;
+
+              <!-- 문항별 유형 선택 -->
+                 <select name="type">
+                <option value="A유형"selected="selected">A유형</option>
+                <option value="B유형">B유형</option>
+                <option value="C유형">C유형</option>
+                <option value="D유형">D유형</option>
+              </select>
+
+            <button class="icon1" type="button" onclick="javascript:alert('삭제되었습니다.');">X</button><BR><BR>
+              <!-- &nbsp;&nbsp;X<br><br> -->
+
+              <textarea cols="130px" rows="2px" style="background-color:#ffffff; 
+            color:#000000;border: 1px solid white;border-radius: 5px;">선택지를 입력해주세요.
+            </textarea><br><br>
+
+            선택지2&nbsp;
+            <select name="type">
+                <option value="+1" selected="selected">+1</option>
+                <option value="+2">+2</option>
+                <option value="+3">+3</option>
+            </select>&nbsp;
+
+            <select name="type">
+                <option value="A유형"selected="selected">A유형</option>
+                <option value="B유형">B유형</option>
+                <option value="C유형">C유형</option>
+                <option value="D유형">D유형</option>
+              </select>
+
+              <button class="icon1" type="button" onclick="javascript:alert('삭제되었습니다.');">X</button><BR><BR>
+              <!-- &nbsp;&nbsp;X<br><br> -->
+
+           </div>
+
+           <textarea cols="130px" rows="2px" style="background-color:#ffffff; 
+               color:#000000;border: 1px solid white;border-radius: 5px;">선택지를 입력해주세요.
+               </textarea><br><br>
+
+           선택지3&nbsp;
+               <select name="type">
+                   <option value="+1" selected="selected">+1</option>
+                   <option value="+2">+2</option>
+                   <option value="+3">+3</option>
+               </select>&nbsp;
+
+                 
+                    <select name="type">
+                   <option value="A유형"selected="selected">A유형</option>
+                   <option value="B유형">B유형</option>
+                   <option value="C유형">C유형</option>
+                   <option value="D유형">D유형</option>
+                 </select>
+
+               <button class="icon1" type="button" onclick="javascript:alert('삭제되었습니다.');">X</button><BR><BR>
+                 <!-- &nbsp;&nbsp;X<BR><BR> -->
+
+                  <textarea cols="130px" rows="2px" style="background-color:#ffffff; 
+               color:#000000;border: 1px solid white;border-radius: 5px;">선택지를 입력해주세요.
+               </textarea><br><br>
+
+<button class="enroll" type="button" onclick="javascript:alert('추가되었습니다!');">+ 선택지 추가하기</button>
+
+               <div class = "submit">
+               <button class="enroll" type="button" onclick="javascript:alert('저장되었습니다!');">완료</button>
+               <button class="enroll" type="button" onclick="javascript:alert('저장되었습니다!');">문제 삭제하기</button>
+
+</div></div></div>
+
+<br>
+<button class="enroll" type="button" onclick="javascript:alert('추가되었습니다!');">+ 문제 추가하기</button>
+               <br><br><p>
