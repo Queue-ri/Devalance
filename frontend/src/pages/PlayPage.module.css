@@ -1,0 +1,54 @@
+.test_sheet {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 48em;
+    height: 37em;
+    margin-left: 30px;
+    background-color: #ffffff;
+    border-radius: 0.6em;
+}
+
+.test_sheet img {
+    max-height: 23em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.test_body {
+    display: flex;
+    padding: 25px 30px;
+    font-size: 18px !important;
+    font-family: Pretendard;
+}
+
+.info_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.info_list > h2 {
+    font-weight: bold;
+}
+
+.btn_list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.btn_list > button {
+    width: 200px;
+    height: 47px;
+    border: none;
+    border-radius: 8px;
+}
+.btn_list > button:first-child {
+    color: #ffffff;
+    background-color: #515FF9;
+    font-weight: 600;
+}
+.btn_list > button:not(:first-child) {
+    background-color: #ECECEC;
+    font-weight: 700;
+}
