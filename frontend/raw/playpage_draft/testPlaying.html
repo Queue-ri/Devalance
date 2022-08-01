@@ -7,11 +7,13 @@
   <link rel="stylesheet" href="testStyle.css">
   <script src="https://kit.fontawesome.com/f1b10246ca.js" crossorigin="anonymous"></script>
   <script defer src="testPlaying.js"></script>
-  <title>테스트 중</title>
+  <title>(테스트명)(테스트중)</title>
 </head>
 <body>
 
 <section class="mainmain">
+
+  <!-- 사이드바 : 추천 테스트 -->
   <aside class="recommend">
 
     <div class="title">추천 테스트</div>
@@ -39,6 +41,7 @@
 
   <div class="main">
 
+    <!-- 플레이 화면 -->
     <section class="playing">
       <button class="goBefore" onclick="goBefore()">
         <i class="fa-solid fa-arrow-left"></i>
@@ -56,15 +59,25 @@
       </button>
     </section>
 
+    <!-- 결과 화면 -->
     <section class="result">
       <div class="title__up">당신의 유형은?</div>
-      <div class="title__down">용의주도한 전략가</div>
-      <div class="detail">최고가 되는 것은 외로운 일입니다. 매우 희귀한 성격이면서도 뛰어난 능력을 지닌 전략가(INTJ)는 이러한 말의 의미를 잘 알고 있습니다. 전략가는 이성적이면서도 두뇌 회전이 빠른 성격으로, 자신의 뛰어난 사고 능력을 자랑스러워하며 거짓말과 위선을 꿰뚫어 보는 능력이 있습니다. 하지만 이로 인해 끊임없이 생각하고 주변의 모든 것을 분석하려는 자신의 성향을 이해할 수 있는 사람을 찾는 데 어려움을 겪기도 합니다.</div>
+      <div class="title__down"></div>
+      <div class="detail"></div>
       <button class="resultShare__btn">결과 공유하기</button>
+      <button class="otherResult__btn" onclick="showOtherResult()">다른 유형 보기</button>
+    </section>
+
+    <!-- 다른 유형 보기 -->
+    <section class="otherResult">
+      <!-- <div class="otherResult__title__up"></div>
+      <div class="otherResult__title__down"></div>
+      <div class="otherResult__detail"></div> -->
     </section>
 
     <hr>
 
+    <!-- 하단 테스트 정보 -->
     <footer>
       <div class="info">
 
@@ -77,6 +90,7 @@
       
       </div>
 
+      <!-- [다시 처음부터 / 공유하기 / 좋아요] 버튼 -->
       <div class="btns">
         
          <button class="restart__btn" onclick="location.href = 'testStart.html'">

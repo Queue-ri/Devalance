@@ -32,7 +32,8 @@ button:hover {
     font-weight: bolder;
 }
 
-/* 개별 css */
+
+/* --------------------개별 css-------------------- */
 
 body {
     background-color: var(--background-color);
@@ -46,6 +47,9 @@ section.mainmain {
     display: flex;
     justify-content: center;
 }
+
+
+/* --------------------사이드바 : 추천 테스트-------------------- */
 
 .recommend > .title {
     font-size: 24px;
@@ -83,6 +87,9 @@ section.mainmain {
     height: 12px;
 }
 
+
+/* --------------------메인-------------------- */
+
 .main {
     width: 1181px;
     margin-left: 29px;
@@ -90,10 +97,14 @@ section.mainmain {
     border-radius: 8px;
 }
 
+
+/* 시작 전 화면 */
+
 .main > section > img {
     width: 1181px;
     height: 422px;
 }
+
 
 /* 플레이 화면 */
 
@@ -133,29 +144,38 @@ section.playing > button {
     
 }
 
+/* 선택된 답변 버튼 */
+#bbuuttoonn.active {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+
 /* 결과 화면 */
 
 section.result {
-    padding: 100px 30px 50px 30px;
+    padding: 100px 30px 30px 30px;
     width: 1121px;
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
-.title__up {
+.title__up,
+.otherResult__title__up {
     font-size: 20px;
     margin-bottom: 18px;
 }
 
-.title__down {
+.title__down,
+.otherResult__title__down {
     font-size: 24px;
     font-weight: bold;
     color: var(--accent-color);
     margin-bottom: 26px;
 }
 
-section.result > .detail {
+section > .detail,
+.otherResult__detail {
     width: 80%;
     font-size: 18px;
     padding: 13px 60px;
@@ -166,7 +186,18 @@ section.result > .detail {
     margin-bottom: 30px;
 }
 
-/* footer */
+/* 다른 유형 보기 */
+section.otherResult {
+    padding: 0px 30px 0px 30px;
+    width: 1121px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+/* --------------------하단 테스트 정보-------------------- */
+/* (+ 결과 화면 버튼) */
 
 .main > footer {
     padding: 30px 28px;
@@ -191,7 +222,8 @@ section.result > .detail {
 }
 
 .btns > button,
-button.resultShare__btn  {
+button.resultShare__btn,
+button.otherResult__btn  {
     width: 228px;
     height: 48px;
     display: flex;
