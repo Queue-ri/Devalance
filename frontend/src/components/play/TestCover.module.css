@@ -1,0 +1,90 @@
+.test_sheet {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 0.6em;
+}
+
+.test_sheet img {
+    max-height: 23em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.test_body {
+    display: flex;
+    padding: 25px 30px;
+    font-size: 18px !important;
+    font-family: Pretendard;
+}
+
+.info_list {
+    display: flex;
+    flex-direction: column;
+    word-break: keep-all; /* 중단점은 모두 공백(띄어쓰기)으로 적용 */
+    word-wrap: break-word; /* 넘치는 문자열이 없도록 */
+    width: 100%;
+}
+.info_list > h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.info_list > p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.info_list > div {
+    display: flex;
+    gap: 8px;
+    margin: 0px auto 15px 0px;
+    color: #515FF9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.info_list > div > svg {
+    margin: auto 0px;
+}
+
+.btn_list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 12px;
+}
+.btn_list > button {
+    width: 200px;
+    height: 47px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.btn_list > button:first-child {
+    color: #ffffff;
+    background-color: #515FF9;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn_list > button:first-child:hover {
+    color: #ffffff;
+    background-color: #6c79ff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn_list > button:not(:first-child) {
+    background-color: #ECECEC;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.btn_list > button:not(:first-child):hover {
+    background-color: #e2e2e2;
+    transition: 0.3s;
+}
+
+.button_clicked {
+    color: #ffffff;
+    background-color: #515FF9 !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
