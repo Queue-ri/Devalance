@@ -1,0 +1,158 @@
+.test_result {
+    display: flex;
+    word-break: keep-all; /* 중단점은 모두 공백(띄어쓰기)으로 적용 */
+    word-wrap: break-word; /* 넘치는 문자열이 없도록 */
+    height: 100%;
+    flex-direction: column;
+    padding: 25px 30px;
+    font-family: Pretendard;
+}
+
+.result_info {
+    display: flex;
+    flex-direction: column;
+    min-height: 23.5em;
+    max-height: 24em;
+}
+
+.image_cover {
+    display: flex;
+    flex-direction: column;
+    min-height: 23.5em;
+    max-height: 24em;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    min-height: 23.5em;
+    max-height: 24em;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 10%, rgba(0,0,0,0.3) 10%);
+}
+
+.transparent_overlay {
+    display: flex;
+    flex-direction: column;
+    min-height: 23.5em;
+    max-height: 24em;
+}
+
+.result_title {
+    margin: auto auto 10px auto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #343434;
+}
+
+.result_title_bright {
+    margin: auto auto 10px auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.result_type {
+    margin: 30px auto;
+    font-size: 24px;
+    font-weight: 700;
+    color: #515FF9;
+}
+
+.result_type_bright {
+    margin: 30px auto;
+    font-size: 24px;
+    font-weight: 700;
+    color: #c6c8ff;
+}
+
+.result_content {
+    background-color: #EEEEEF;
+    border-radius: 8px;
+    padding: 20px 40px;
+    margin: 10px auto auto auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.test_info {
+    display: flex;
+    padding: 15px 0px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.info_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.info_list > h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.info_list > p {
+    font-size: 16px;
+    font-weight: 500;
+}
+.info_list > div {
+    display: flex;
+    gap: 8px;
+    margin: 0px auto 15px 0px;
+    color: #515FF9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.info_list > div > svg {
+    margin: auto 0px;
+}
+
+.btn_list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.btn_list > button {
+    width: 200px;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ECECEC;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.btn_list > button:hover {
+    background-color: #e2e2e2;
+    transition: 0.3s;
+}
+
+.restart_btn {
+    display: flex;
+    width: 200px;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ECECEC;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.restart_btn:hover {
+    background-color: #e2e2e2;
+    transition: 0.3s;
+}
+.restart_btn_a {
+    text-decoration: none;
+}
+
+.restart_btn > p {
+    margin: auto auto auto 0px;
+}
+.restart_btn > svg {
+    margin: auto 10px auto auto;
+}
+
+.button_clicked {
+    color: #ffffff;
+    background-color: #515FF9 !important;
+    font-weight: 600;
+    transition: 0.3s;
+}

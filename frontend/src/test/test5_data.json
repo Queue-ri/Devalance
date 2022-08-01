@@ -1,0 +1,47 @@
+{
+    "test_info": {
+        "img": "https://static.vecteezy.com/system/resources/previews/004/340/271/original/choice-thinking-doubt-problem-young-pensive-thoughtful-confused-doubtful-woman-or-girl-standing-and-choosing-between-two-colors-or-ways-pointing-in-other-sides-illustration-vector.jpg",
+        "title" : "감정형? or 사고형?",
+        "content": "너무나 다른 MBTI T와 F! 나의 성향은 둘 중 과연 무엇일까?",
+        "done": 3942,
+        "likes": 999
+    },
+
+    "question_list": [
+        {
+            "question": "너무 우울해서 화분 샀어ㅠㅠ",
+            "choice": [
+                { "answer": "왜 우울해? 무슨 일 있어?", "type": "상대방 감정에 집중하는 감정형 인간" },
+                { "answer": "어떤 화분을 샀는데?", "type": "상대방의 감정은 뒷전인 사고형 인간" }
+            ]
+        },
+        {
+            "question": "친구가 나를 위해 만들어준 쿠키의 맛이.. 너무 달다면?",
+            "choice": [
+                { "answer": "다음에는 덜 달게 해봐!", "type": "상대방의 감정은 뒷전인 사고형 인간" },
+                { "answer": "감동이야 (꾸역꾸역)", "type": "상대방 감정에 집중하는 감정형 인간" }
+            ]
+        },
+        {
+            "question": "'나 피곤해서 드라이 샴푸 했어' 라고 말하는 친구에게 당신의 반응은?",
+            "choice": [
+                { "answer": "드라이 샴푸가 더 귀찮지 않나?", "type": "상대방의 감정은 뒷전인 사고형 인간" },
+                { "answer": "많이 피곤해? 무슨일 있어?", "type": "상대방 감정에 집중하는 감정형 인간" }
+            ]
+        }
+
+    ],
+
+    "type_list": [
+        {
+            "name": "상대방의 감정은 뒷전인 사고형 인간",
+            "imagefile": "https://cdn.pixabay.com/photo/2014/10/15/10/53/opposites-489521_960_720.jpg",
+            "content": "상대방의 감정에 공감은 중요하지 않는 사고형 인간 "
+        },
+        {
+            "name": "상대방 감정에 집중하는 감정형 인간",
+            "imagefile": "https://cdn.pixabay.com/photo/2015/07/24/00/33/compassion-857724_960_720.jpg",
+            "content": "상대방의 감정에 공감을 해주는 공감형 인간"
+        }
+    ]
+}

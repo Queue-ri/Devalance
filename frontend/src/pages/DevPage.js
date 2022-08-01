@@ -6,97 +6,16 @@ import InfiniteScroll from "react-infinite-scroller";
 import { Col, Container, Row } from "react-bootstrap";
 import SideBar from "../components/navigation/SideBar";
 import NavBar from "../components/navigation/NavBar";
+import test_res from "../test/devpage_test_res.json"
 
 
 function DevPage() {
-    const test_res_1 = [
-        {
-            img: "https://qph.cf2.quoracdn.net/main-qimg-95ab4d5d315a7528da02f410a366c3ce-pjlq",
-            title: "자스 VS 타스",
-            content: "세기의 자강두천 대결",
-            likes: 7777
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 9999
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 9999
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 9999
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 9999
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 9999
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 9999
-        },
-        {
-            img: "",
-            title: "✨Test Title",
-            content: "첫 데이터의 마지막 카드입니다.",
-            likes: 9999
-        }
-    ];
+    const test_res_1 = test_res["res_1"]
 
-    const test_res_2 = [
-        {
-            img: "",
-            title: "✨두 번째 데이터",
-            content: "데이터 불러오기 성공~",
-            likes: 1111
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 1234
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 1234
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 1234
-        },
-        {
-            img: "",
-            title: "Test Title",
-            content: "테스트용 데이터입니다.",
-            likes: 1234
-        }
-    ];
-
-    const test_res_length = test_res_1.length + test_res_2.length;
+    const test_res_length = test_res_1.length
 
     const [cards, setCardData] = useState(test_res_1);
-    const [hasMore, setHasMore] = useState(true);
+    const [hasMore, setHasMore] = useState(false);
     const [initialLoad, setInitFlag] = useState(true);
     const [showloading, setLoadingFlag] = useState(false);
 
@@ -104,7 +23,7 @@ function DevPage() {
         setLoadingFlag(true);
         setTimeout(() => { // fake axios fetching
             setLoadingFlag(false);
-            setCardData([...cards, ...test_res_2]);
+            setCardData([...cards]);
         }, "1000");
         setHasMore(false);
         setInitFlag(false); // https://github.com/danbovey/react-infinite-scroller/issues/163#issuecomment-411201250
@@ -116,7 +35,7 @@ function DevPage() {
             <Container fluid="md" style={{height: "100%", paddingTop: "40px"}}>
                 <Row>
                     <Col xs="3">
-                        <SideBar selected={1}/>
+                        <SideBar selected={1} />
                     </Col>
                     <Col xs>
                         <InfiniteScroll
@@ -132,6 +51,7 @@ function DevPage() {
                                 {cards?.map((x) => {
                                     return (
                                         <Card
+                                            id={x.id}
                                             img={x.img}
                                             title={x.title}
                                             content={x.content}

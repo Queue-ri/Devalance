@@ -23,7 +23,7 @@ function SideBar(props) {
 
     function handleSelection(selectedKey) {
         setSelected(selectedKey);
-        alert(`selected ${selectedKey}`);
+        // alert(`selected ${selectedKey}`);
         navigate(getPath(selectedKey));
     }
 
@@ -34,7 +34,7 @@ function SideBar(props) {
         >
             <div className={styles.sidebar}>
             <Nav.Item className={highlighted == 1 ? styles.highlight : null}>
-                <Nav.Link eventKey={1}>🔥&nbsp;&nbsp;전체 카테고리</Nav.Link>
+                <Nav.Link eventKey={1}>🌈&nbsp;&nbsp;전체 카테고리</Nav.Link>
             </Nav.Item>
             <Nav.Item className={highlighted == 2 ? styles.highlight : null}>
                 <Nav.Link eventKey={2}>🔥&nbsp;&nbsp;인기 카테고리</Nav.Link>

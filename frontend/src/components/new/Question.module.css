@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div > div {
+    min-width: 100px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.folded_question {
+    background-color: #f9f9f9;
+    color: #4c4c4c;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Pretendard;
+    cursor: pointer;
+}
+
+.question > div {
+    display: flex;
+}
+
+.question > div > div {
+    min-width: 100px; /* textarea가 왼쪽으로 더 쏠리는 현상 방지 */
+    width: 100px;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Pretendard;
+}
+
+.question > div > input {
+    display: flex;
+    width: 60%;
+    height: 48px;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    color: #4c4c4c;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+
+.question > div > input::placeholder {
+    color: #bbbbbb;
+}
+
+.choice_container {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+}
+
+.choice {
+    display: flex;
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+}
+.choice > input {
+    display: flex;
+    flex-grow: 2;
+    height: 48px;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    color: #4c4c4c;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+.choice > input::placeholder {
+    color: #bbbbbb;
+}
+.choice > div {
+    margin: auto 0px auto 20px;
+    cursor: pointer;
+}
+
+.type_dropdown {
+    padding: 10px 12px;
+    margin-left: 15px;
+    color: #4c4c4c;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+
+.btn_container {
+    display: flex;
+    gap: 15px;
+}
+.btn_container > div {
+    min-width: 150px !important;
+    margin-left: 100px;
+    font-weight: 600 !important;
+    color: #535353;
+}
+.btn_container > div > svg {
+    margin: auto 8px;
+}
+
+.done_btn {
+    display: flex;
+    margin-left: auto;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E0E3FF;
+    font-family: Pretendard;
+}
+
+.delete_type_btn {
+    display: flex;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+
+.done_btn > svg, .delete_type_btn > svg {
+    margin: auto 6px auto 0px;
+}

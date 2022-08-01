@@ -1,0 +1,115 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.05), 0 8px 32px -8px hsla(0, 0%, 0%, 0.05), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.01);
+
+    -webkit-animation: fadein 0.5s ease-out, select 0.5s ease-out; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.5s ease-out; /* Firefox < 16 */
+         -o-animation: fadein 0.5s ease-out; /* Opera < 12.1 */
+            animation: fadein 0.5s ease-out;
+}
+
+@keyframes fadein {
+    from { opacity: 0; margin-top: 40px; }
+    to   { opacity: 1; margin-top: 0px; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.form > div {
+    margin: 0px 0px 40px 0px;
+}
+.form > div > p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-family: Pretendard;
+}
+.title > input {
+    width: 60%;
+    height: 48px;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    color: #4c4c4c;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+.title > input::placeholder {
+    color: #bbbbbb;
+}
+
+.content > textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    color: #4c4c4c;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+.content > textarea::placeholder {
+    color: #bbbbbb;
+}
+
+.chip {
+    padding: 6px 16px;
+    margin-right: 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    background: #FFFFFF;
+    font-weight: 600;
+    font-family: Pretendard;
+    transition: 0.3s;
+}
+
+.chip:hover {
+    color: #ffffff;
+    background: #515ff9;
+}
+
+.chip_clicked {
+    padding: 6px 16px;
+    margin-right: 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    color: #ffffff;
+    background: #515ff9;
+    font-weight: 600;
+    font-family: Pretendard;
+    transition: 0.3s;
+}
+
+.add_btn {
+    display: flex;
+    padding: 10px 12px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    font-family: Pretendard;
+}
+.add_btn > svg {
+    margin: auto 6px auto 8px;
+}

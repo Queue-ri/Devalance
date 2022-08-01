@@ -56,16 +56,24 @@
 }
 
 .card h2 {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: #222;
     margin-top: -0.2em;
     line-height: 1.4;
-    font-size: 1.35em;
+    font-size: 1.25em;
     font-weight: 700;
     transition: all ease-in 100ms;
 }
 
 .card p {
     color: #777;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card h5 {

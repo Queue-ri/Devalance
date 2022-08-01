@@ -1,22 +1,21 @@
 import React, { useState } from "react";
-import styles from "./MainPage.module.css"
+import styles from "./SelfPage.module.css"
 import Loading from "../components/ui/Loading";
 import Card from "../components/content/Card";
 import InfiniteScroll from "react-infinite-scroller";
 import { Col, Container, Row } from "react-bootstrap";
 import SideBar from "../components/navigation/SideBar";
 import NavBar from "../components/navigation/NavBar";
-import test_res from "../test/mainpage_test_res.json"
+import test_res from "../test/selfpage_test_res.json"
 
 
-function MainPage() {
+function SelfPage() {
     const test_res_1 = test_res["res_1"]
-    const test_res_2 = test_res["res_2"]
 
-    const test_res_length = test_res_1.length + test_res_2.length;
+    const test_res_length = test_res_1.length
 
     const [cards, setCardData] = useState(test_res_1);
-    const [hasMore, setHasMore] = useState(true);
+    const [hasMore, setHasMore] = useState(false);
     const [initialLoad, setInitFlag] = useState(true);
     const [showloading, setLoadingFlag] = useState(false);
 
@@ -24,7 +23,7 @@ function MainPage() {
         setLoadingFlag(true);
         setTimeout(() => { // fake axios fetching
             setLoadingFlag(false);
-            setCardData([...cards, ...test_res_2]);
+            setCardData([...cards]);
         }, "1000");
         setHasMore(false);
         setInitFlag(false); // https://github.com/danbovey/react-infinite-scroller/issues/163#issuecomment-411201250
@@ -36,7 +35,7 @@ function MainPage() {
             <Container fluid="md" style={{height: "100%", paddingTop: "40px"}}>
                 <Row>
                     <Col xs="3">
-                        <SideBar highlighted={1} />
+                        <SideBar selected={2}/>
                     </Col>
                     <Col xs>
                         <InfiniteScroll
@@ -70,4 +69,4 @@ function MainPage() {
     );
 }
 
-export default MainPage;
+export default SelfPage;
