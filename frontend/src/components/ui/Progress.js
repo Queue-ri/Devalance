@@ -33,7 +33,7 @@ function Progress(props) {
 
             <div className={styles.password}>
                 <p>비밀번호 (선택)</p>
-                <input type="text" placeholder="비밀번호를 입력해주세요" value={props.password.value} onChange={(e) => props.setPassword(e.target.value)} />
+                <input type="password" placeholder="비밀번호를 입력해주세요" value={props.password.value} onChange={(e) => props.setPassword(e.target.value)} />
                 <div className={styles.indicator}>
                     <WarnSvg />
                     <p>수정 또는 삭제 시 꼭 필요해요!</p>
