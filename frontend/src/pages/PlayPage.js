@@ -19,6 +19,21 @@ import test5_data from "../test/test5_data.json"
 import test6_data from "../test/test6_data.json"
 import test11_data from "../test/test11_data.json"
 
+// 음식
+import test7_data from "../test/test7_data.json"
+import test12_data from "../test/test12_data.json"
+import test15_data from "../test/test15_data.json"
+import test16_data from "../test/test16_data.json"
+
+// 게임
+import test4_data from "../test/test4_data.json"
+import test9_data from "../test/test9_data.json"
+import test13_data from "../test/test13_data.json"
+import test14_data from "../test/test14_data.json"
+
+// 기타
+import test17_data from "../test/test17_data.json"
+
 
 function PlayPage() {
     const id_data = useLocation();
@@ -44,11 +59,20 @@ function PlayPage() {
             case 1: testfile = test1_data; break;
             case 2: testfile = test2_data; break;
             case 3: testfile = test3_data; break;
+            case 4: testfile = test4_data; break;
             case 5: testfile = test5_data; break;
             case 6: testfile = test6_data; break;
+            case 7: testfile = test7_data; break;
             case 8: testfile = test8_data; break;
+            case 9: testfile = test9_data; break;
             case 10: testfile = test10_data; break;
             case 11: testfile = test11_data; break;
+            case 12: testfile = test12_data; break;
+            case 13: testfile = test13_data; break;
+            case 14: testfile = test14_data; break;
+            case 15: testfile = test15_data; break;
+            case 16: testfile = test16_data; break;
+            case 17: testfile = test17_data; break;
         }
 
         setTestInfo(testfile["test_info"]);

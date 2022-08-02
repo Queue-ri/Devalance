@@ -1,0 +1,47 @@
+{
+    "test_info": {
+        "img": "https://static.vecteezy.com/system/resources/previews/000/366/192/large_2x/healthy-food-vector.jpg",
+        "title" : "당신의 현재 건강 상태는?",
+        "content": "음식 취향으로 알아보는 당신의 건강 상태!",
+        "done": 1892,
+        "likes": 1073
+    },
+
+    "question_list": [
+        {
+            "question": "더운 여름날 당신의 선택은?",
+            "choice": [
+                { "answer": "시원한 과일", "type": "건강을 챙기는 당신 ! 건강상태양호!" },
+                { "answer": "깡깡 얼어버린 아이스크림", "type": "배탈주의 ! 건강상태주의!" }
+            ]
+        },
+        {
+            "question": "새벽시간 편의점에서 삼각김밥을 발견한 당신!",
+            "choice": [
+                { "answer": "새벽이고 뭐고 나는 배가 너무 고프다 돌진!", "type": "배탈주의 ! 건강상태주의!" },
+                { "answer": "새벽이니까 두유나 사가지고 가야지..", "type": "건강을 챙기는 당신 ! 건강상태양호!" }
+            ]
+        },
+        {
+            "question": "식당을 고르자면?",
+            "choice": [
+                { "answer": "질보단 양! 무조건 많이 먹을 수 있는 무한리필집", "type": "배탈주의 ! 건강상태주의!" },
+                { "answer": "양보단 질! 적당한 양의 고급 음식점", "type": "건강을 챙기는 당신 ! 건강상태양호!" }
+            ]
+        }
+
+    ],
+
+    "type_list": [
+        {
+            "name": "배탈주의 ! 건강상태주의!",
+            "imagefile": "https://cdn.pixabay.com/photo/2014/01/12/14/39/teddy-242851_960_720.jpg",
+            "content": "배탈주의! 건강이 우선! 자신의 건강상태를 돌아보세요!"
+        },
+        {
+            "name": "건강을 챙기는 당신 ! 건강상태양호!",
+            "imagefile": "https://cdn.pixabay.com/photo/2016/02/20/21/41/vegetables-1212845_960_720.jpg",
+            "content": "건강을 우선으로 챙기는 당신! 아주 건강한 라이프를 즐기고 계시군요!"
+        }
+    ]
+}

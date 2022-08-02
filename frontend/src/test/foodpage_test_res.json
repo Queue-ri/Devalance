@@ -1,0 +1,32 @@
+{
+    "res_1": [
+        {
+            "id": 7,
+            "img": "https://img.daily.co.kr/@files/www.daily.co.kr/content/food/2020/20200730/514faadc4b73cd4812f080e029f2f1af.jpg",
+            "title" : "나의 음식 취향은?",
+            "content": "나는 한식 / 일식 / 중식 중 어느파일까?",
+            "likes": 431
+        },
+        {
+            "id": 12,
+            "img": "https://www.rd.com/wp-content/uploads/2022/04/food-quiz-gif-ML.gif",
+            "title" : "음식으로 알아보는 나의 성격은?",
+            "content": "음식으로 알아보는 나의 성격",
+            "likes": 181
+        },
+        {
+            "id": 15,
+            "img": "https://static.vecteezy.com/system/resources/previews/000/366/192/large_2x/healthy-food-vector.jpg",
+            "title" : "당신의 현재 건강 상태는?",
+            "content": "음식 취향으로 알아보는 당신의 건강 상태!",
+            "likes": 1073
+        },
+        {
+            "id": 16,
+            "img": "https://cdn.pixabay.com/photo/2017/08/03/21/48/drinks-2578446_960_720.jpg",
+            "title" : "나의 술 자리 스타일은?",
+            "content": "나의 술자리 스타일",
+            "likes": 722
+        }
+    ]
+}

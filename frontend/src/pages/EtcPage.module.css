@@ -1,0 +1,21 @@
+.headline {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    font-family: Pretendard;
+}
+
+.cardlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px; /* 무한스크롤 여백의 미 */
+}
+
+.loader {
+    height: 100px;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4c4c4c;
+}

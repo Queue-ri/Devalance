@@ -12,7 +12,9 @@ function Card(props) {
 
     const clickShare = (e) => {
         e.stopPropagation();
-        alert("준비중");
+        const body = "\"" + props.title + "\"" + " Devalance에서 결과를 확인해보세요!\n"
+        navigator.clipboard.writeText(body + "https://devalance.herokuapp.com/play/" + props.id)
+        alert("테스트 링크 복사 완료! 친구들에게 공유해보세요.")
     };
 
     return (

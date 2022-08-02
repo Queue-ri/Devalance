@@ -1,0 +1,55 @@
+{
+    "test_info": {
+        "img": "https://img.daily.co.kr/@files/www.daily.co.kr/content/food/2020/20200730/514faadc4b73cd4812f080e029f2f1af.jpg",
+        "title" : "나의 음식 취향은?",
+        "content": "나는 한식 / 일식 / 중식 중 어느파일까?",
+        "done": 888,
+        "likes": 431
+    },
+
+    "question_list": [
+        {
+            "question": "죽기 전에 꼭 먹어야 할 음식은?",
+            "choice": [
+                { "answer": "갓 차린 따끈한 집밥! 된장찌개", "type": "당신은 한식파!" },
+                { "answer": "싱싱한 생선회가 올라간 초밥", "type": "당신은 일식파!" },
+                { "answer": "면치기 가능한 짜장 , 짬뽕!", "type": "당신은 중식파!" }
+            ]
+        },
+        {
+            "question": "당신이 좋아하는 술 안주는?",
+            "choice": [
+                { "answer": "해물파전과 뽈탕", "type": "당신은 한식파!" },
+                { "answer": "간토오뎅나베와 타코야끼", "type": "당신은 일식파!" },
+                { "answer": "깐풍기와 팔보채", "type": "당신은 중식파!" }
+            ]
+        },
+        {
+            "question": "일주일 내내 한 음식만 먹어야 한다면?",
+            "choice": [
+                { "answer": "비빔밥", "type": "당신은 한식파!" },
+                { "answer": "라멘", "type": "당신은 일식파!" },
+                { "answer": "탕수육", "type": "당신은 중식파!" }
+            ]
+        }
+
+    ],
+
+    "type_list": [
+        {
+            "name": "당신은 한식파!",
+            "imagefile": "http://img.segye.com/content/image/2021/01/07/20210107516500.jpg",
+            "content": "당신은 뼈 속까지 한식파!"
+        },
+        {
+            "name": "당신은 일식파!",
+            "imagefile": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/04/a0004824/img/basic/a0004824_main.jpg?20201228121552&q=80&rw=750&rh=536",
+            "content": "당신은 뼈 속까지 일식파!"
+        },
+        {
+            "name": "당신은 중식파!",
+            "imagefile": "https://blog.kakaocdn.net/dn/cQadDg/btqIZmNixWI/kkef5cKMY4YiWIDBcsX7IK/img.png",
+            "content": "당신은 뼈 속까지 중식파! "
+        }
+    ]
+}

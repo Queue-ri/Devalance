@@ -6,6 +6,9 @@ import SelfPage from './pages/SelfPage';
 import NewPage from './pages/NewPage';
 import PlayPage from './pages/PlayPage';
 import PopularPage from './pages/PopularPage';
+import EtcPage from './pages/EtcPage';
+import FoodPage from './pages/FoodPage';
+import GamePage from './pages/GamePage';
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
                     <Route path="/popular" element={<PopularPage />} />
                     <Route path="/dev" element={<DevPage />} />
                     <Route path="/self" element={<SelfPage />} />
+                    <Route path="/food" element={<FoodPage />} />
+                    <Route path="/game" element={<GamePage />} />
+                    <Route path="/etc" element={<EtcPage />} />
                     <Route exact path="/new" element={<NewPage />} />
                     <Route path="/play/*" element={<PlayPage />} />
                 </Routes>

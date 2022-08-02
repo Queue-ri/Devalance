@@ -18,6 +18,7 @@
     background-color: #3F64E6;
     width: 130px;
     height: 42px;
+    margin: auto 0px;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.5s;
@@ -28,6 +29,7 @@
     background-color: #d8d8d8;
     width: 130px;
     height: 42px;
+    margin: auto 0px;
     border-radius: 8px;
     cursor: not-allowed;
     transition: 0.5s;
@@ -101,3 +103,29 @@
 .dropdown:hover .dropdown_content { display: block; }
 
 .dropdown:hover .dropbtn { background-color: #3e8e41; }
+
+.github {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin-right: 30px;
+    border-radius: 100px;
+    background-color: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.github:hover {
+    background-color: #efefef;
+    transition: 0.3s;
+}
+.github > svg {
+    fill: #8d8d8d;
+    width: 30px;
+    height: 30px;
+    margin: auto auto;
+    transition: 0.3s;
+}
+.github > svg:hover {
+    fill: #1B1F23;
+    transition: 0.3s;
+}

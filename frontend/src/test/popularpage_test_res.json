@@ -1,6 +1,13 @@
 {
     "res_1": [
         {
+            "id": 9,
+            "img": "https://w.namu.la/s/91a6f5a40e1b512308a4fe9d22bbb1dc939bfb7ad6e861e33e0ac6d9a3c43b4f115114e939b817c46a8f2c8e3310f1a126b529432581dc2ef01ab85423ece9c724a6a0ca7dc01939c49f08781dbd4f5492ceacb204640fea3f1e76013181ce5c7828763744e90d62facb590be4d9a525",
+            "title": "나의 마인크래프트 플레이 유형은?",
+            "content": "세상은 넓고 유형은 다양하다",
+            "likes": 8147
+        },
+        {
             "id": 1,
             "img": "https://qph.cf2.quoracdn.net/main-qimg-95ab4d5d315a7528da02f410a366c3ce-pjlq",
             "title": "자스 VS 타스",
@@ -13,6 +20,13 @@
             "title" : "계획적/즉흥적 성격 테스트",
             "content": "당신은 P인가요 J인가요? (TMI: 이 내용을 쓴 사람은 P입니다.)",
             "likes": 1234
+        },
+        {
+            "id": 15,
+            "img": "https://static.vecteezy.com/system/resources/previews/000/366/192/large_2x/healthy-food-vector.jpg",
+            "title" : "당신의 현재 건강 상태는?",
+            "content": "음식 취향으로 알아보는 당신의 건강 상태!",
+            "likes": 1073
         }
     ]
 }

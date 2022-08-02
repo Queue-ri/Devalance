@@ -1,0 +1,53 @@
+{
+    "test_info": {
+        "img": "https://www.gameforme.site/image/battleground.jpg",
+        "title": "오버워치 vs 배틀그라운드",
+        "content": "같으면서도 다른 두 fps 게임! 나에게 맞는 게임은 무엇일까?",
+        "done": 208,
+        "likes": 113
+    },
+
+    "question_list": [
+        {
+            "question": "나의 게임 환경은?",
+            "choice": [
+                { "answer": "마이크를 사용하기 편한 환경", "type": "배틀그라운드" },
+                { "answer": "시끄러움 / 마이크가 없음", "type": "오버워치" }
+            ]
+        },
+        {
+            "question": "나는 한 판을 하고 끝났을 때",
+            "choice": [
+                { "answer": "이번엔 다른 유형을 해야지!", "type": "오버워치" },
+                { "answer": "익숙한 것이 좋다", "type": "배틀그라운드" }
+            ]
+        },
+        {
+            "question": "나는 에임을",
+            "choice": [
+                { "answer": "중요하게 생각한다", "type": "배틀그라운드" },
+                { "answer": "많은 능력 중 하나라고 생각한다", "type": "오버워치" }
+            ]
+        },
+        {
+            "question": "나는 스릴을",
+            "choice": [
+                { "answer": "즐긴다. 스릴을 위해서는 몇가지를 감수할 수 있다", "type": "배틀그라운드" },
+                { "answer": "스릴보다는 지루하지 않고 재미있었으면 좋겠다", "type": "오버워치" }
+            ]
+        }
+    ],
+
+    "type_list": [
+        {
+            "name": "오버워치",
+            "imagefile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmLpK25QZDBp8v7-V46rz96_2uxdIJh2wXXUsLI3Y-73wEaEkgm14U3qK2wGSTFGKHYo&usqp=CAU",
+            "content": "6vs6의 게임이 기본이며 죽는 즉시 아군의 필드에서 부활할 수 있기 때문에 빨리빨리 게임을 즐길 수 있고 다양한 영웅과 스킬 등으로 다양한 상황이 펼쳐진다."
+        },
+        {
+            "name": "배틀그라운드",
+            "imagefile": "https://www.gameforme.site/image/battleground.jpg",
+            "content": "기본적으로 100:1의 데스게임 형태이며 한정된 맵 안에서 만인의 만인에 대한 투쟁 상태로 항시 긴장을 경험하게 된다. 한 번 죽으면 되돌릴 수 없다는 점이 특징이다."
+        }
+    ]
+}

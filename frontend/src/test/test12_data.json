@@ -1,0 +1,47 @@
+{
+    "test_info": {
+        "img": "https://www.rd.com/wp-content/uploads/2022/04/food-quiz-gif-ML.gif",
+        "title" : "음식으로 알아보는 나의 성격은?",
+        "content": "음식으로 알아보는 나의 성격",
+        "done": 256,
+        "likes": 181
+    },
+
+    "question_list": [
+        {
+            "question": "둘 중에 하나만 마셔야 한다면?",
+            "choice": [
+                { "answer": "탄산없는 콜라", "type": "모든게 평화로운 온화한 성격" },
+                { "answer": "탄산가득 마실때마다 목이 타들어가는 콜라", "type": "두려움이 없는 열정적인 성격" }
+            ]
+        },
+        {
+            "question": "더운 여름날 당신의 음식 선택은?",
+            "choice": [
+                { "answer": "물냉면", "type": "모든게 평화로운 온화한 성격" },
+                { "answer": "비빔냉면", "type": "두려움이 없는 열정적인 성격" }
+            ]
+        },
+        {
+            "question": "라면을 사러 마트에 온 당신 , 당신의 라면 취향은?",
+            "choice": [
+                { "answer": "신상라면이 나왔다. 새로운 맛에 도전!", "type": "두려움이 없는 열정적인 성격" },
+                { "answer": "항상 같은 라면이지 최애라면 선택!", "type": "모든게 평화로운 온화한 성격" }
+            ]
+        }
+
+    ],
+
+    "type_list": [
+        {
+            "name": "두려움이 없는 열정적인 성격",
+            "imagefile": "https://static.vecteezy.com/system/resources/previews/009/361/918/large_2x/pattern-with-red-pepper-and-tomatoes-free-vector.jpg",
+            "content": "두려움이 없는 도전적인 성격을 가진 당신은 매사에 열정적인 사람!"
+        },
+        {
+            "name": "모든게 평화로운 온화한 성격",
+            "imagefile": "https://cdn.pixabay.com/photo/2016/01/04/07/08/korean-cold-noodles-1120409_960_720.jpg",
+            "content": "도전을 선호하지 않고 모든거에 안정적인 성격을 가진 당신은 평화주의자!"
+        }
+    ]
+}

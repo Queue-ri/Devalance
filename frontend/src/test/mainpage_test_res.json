@@ -23,10 +23,10 @@
         },
         {
             "id": 4,
-            "img": "",
-            "title": "Test Title",
-            "content": "테스트용 데이터입니다.",
-            "likes": 9999
+            "img": "https://i0.wp.com/xboxers.com.br/wp-content/uploads/2019/06/over.jpg",
+            "title": "나에게 맞는 오버워치 영웅은?",
+            "content": "그래도 이 세상 어딘가엔 나에게 어울리는 영웅이 있을 것이다.",
+            "likes": 191
         },
         {
             "id": 5,
@@ -44,10 +44,10 @@
         },
         {
             "id": 7,
-            "img": "",
-            "title": "Test Title",
-            "content": "테스트용 데이터입니다.",
-            "likes": 9999
+            "img": "https://img.daily.co.kr/@files/www.daily.co.kr/content/food/2020/20200730/514faadc4b73cd4812f080e029f2f1af.jpg",
+            "title" : "나의 음식 취향은?",
+            "content": "나는 한식 / 일식 / 중식 중 어느파일까?",
+            "likes": 431
         },
         {
             "id": 8,
@@ -58,10 +58,10 @@
         },
         {
             "id": 9,
-            "img": "",
-            "title": "✨Test Title",
-            "content": "첫 데이터의 마지막 카드입니다.",
-            "likes": 9999
+            "img": "https://w.namu.la/s/91a6f5a40e1b512308a4fe9d22bbb1dc939bfb7ad6e861e33e0ac6d9a3c43b4f115114e939b817c46a8f2c8e3310f1a126b529432581dc2ef01ab85423ece9c724a6a0ca7dc01939c49f08781dbd4f5492ceacb204640fea3f1e76013181ce5c7828763744e90d62facb590be4d9a525",
+            "title": "나의 마인크래프트 플레이 유형은?",
+            "content": "세상은 넓고 유형은 다양하다",
+            "likes": 8147
         }
     ],
 
@@ -82,24 +82,45 @@
         },
         {
             "id": 12,
-            "img": "",
-            "title": "Test Title",
-            "content": "테스트용 데이터입니다.",
-            "likes": 1234
+            "img": "https://www.rd.com/wp-content/uploads/2022/04/food-quiz-gif-ML.gif",
+            "title" : "음식으로 알아보는 나의 성격은?",
+            "content": "음식으로 알아보는 나의 성격",
+            "likes": 181
         },
         {
             "id": 13,
-            "img": "",
-            "title": "Test Title",
-            "content": "테스트용 데이터입니다.",
-            "likes": 1234
+            "img": "https://pbs.twimg.com/media/FVIDGUJXoAAedpH.jpg",
+            "title": "로스트아크 vs 파이널판타지14",
+            "content": "mmorpg 중 나에게 맞는 게임을 알아보자!",
+            "likes": 349
         },
         {
             "id": 14,
+            "img": "https://www.gameforme.site/image/battleground.jpg",
+            "title": "오버워치 vs 배틀그라운드",
+            "content": "같으면서도 다른 두 fps 게임! 나에게 맞는 게임은 무엇일까?",
+            "likes": 113
+        },
+        {
+            "id": 15,
+            "img": "https://static.vecteezy.com/system/resources/previews/000/366/192/large_2x/healthy-food-vector.jpg",
+            "title" : "당신의 현재 건강 상태는?",
+            "content": "음식 취향으로 알아보는 당신의 건강 상태!",
+            "likes": 1073
+        },
+        {
+            "id": 16,
+            "img": "https://cdn.pixabay.com/photo/2017/08/03/21/48/drinks-2578446_960_720.jpg",
+            "title" : "나의 술 자리 스타일은?",
+            "content": "나의 술자리 스타일",
+            "likes": 722
+        },
+        {
+            "id": 17,
             "img": "",
-            "title": "Test Title",
-            "content": "테스트용 데이터입니다.",
-            "likes": 1234
+            "title" : "✨기본 썸네일 테스트",
+            "content": "기본 썸네일이 잘 보이는지 확인합니다.",
+            "likes": 1
         }
     ]
 }

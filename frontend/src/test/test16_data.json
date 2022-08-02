@@ -1,0 +1,46 @@
+{
+    "test_info": {
+        "img": "https://cdn.pixabay.com/photo/2017/08/03/21/48/drinks-2578446_960_720.jpg",
+        "title" : "나의 술 자리 스타일은?",
+        "content": "나의 술자리 스타일",
+        "done": 1436,
+        "likes": 722
+    },
+
+    "question_list": [
+        {
+            "question": "나의 최애 술 안주는?",
+            "choice": [
+                { "answer": "과일 화채", "type": "핍박받는 스타일"},
+                { "answer": "마른 안주","type": "오로지 술만을 즐길 줄 아는 스타일"},
+                { "answer": "골뱅이 소면","type": "대중적인 스타일"}
+            ]
+        },
+        {
+            "question": "시간이 늦었다. 분위기는 너무 좋다. 나의 선택은?",
+            "choice": [
+                { "answer": "슬슬 가방을 챙기고 자리에서 일어날 준비를 한다.","type": "핍박받는 스타일" },
+                { "answer": "막차고 뭐고 없다 즐기자!", "type": "대중적인 스타일" },
+                { "answer": "시간이 중요한게 아니다 자리는 지키지만 더 이상 못마신다 술을 멈춘다.", "type": "오로지 술만을 즐길 줄 아는 스타일" }
+            ]
+        }
+    ],
+
+    "type_list": [
+        {
+            "name": "핍박받는 스타일",
+            "imagefile": "https://cdn.pixabay.com/photo/2017/04/05/20/57/couple-2206294_960_720.jpg",
+            "content": "당신은 무얼해도 핍박받는 스타일!"
+        },
+        {
+            "name": "오로지 술만을 즐길 줄 아는 스타일",
+            "imagefile": "https://cdn.pixabay.com/photo/2019/04/08/04/22/glasses-4111357_960_720.jpg",
+            "content": "술자리고 뭐고 난 그저 술이 좋다! 술만을 즐길 줄 아는 스타일!"
+        },
+         {
+            "name": "대중적인 스타일",
+            "imagefile": "https://cdn.pixabay.com/photo/2013/11/03/08/05/cheers-204742_960_720.jpg",
+            "content": "분위기에 맞춰 모든 적당하게! 대중적인 스타일!"
+        }
+    ]
+}
